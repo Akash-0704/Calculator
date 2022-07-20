@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div.calculator{
+    text-align: center;
+}
+
+div.buttons{
+    font-size: 10px;
+    margin-top: 12px;margin-bottom: 20px;
+}
+
+button{
+    padding: 19px;
+    width: 100px;
+    font-family: 'Trench';
+    font-weight: bolder;
+    border-radius: 2.5px;
+    font-size: x-large;
+    transition-duration: 0.4s;
+    margin: 0px;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:active{
+    font-size: large;
+    transition-duration: 0ms;
+}
+
+
+div.display{
+    color: white;
+    font-family: 'Trench';
+    font-weight: bolder;
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px;
+    margin-left: auto;margin-right: auto
+    
+};
+
+p display{
+    font-family: 'Trench';
+}
+
+@import url(//db.onlinewebfonts.com/c/dc0b2bf2eb1538767df118d65a2314ea?family=Trench);
+@font-face {font-family: "Trench"; src: url("//db.onlinewebfonts.com/t/dc0b2bf2eb1538767df118d65a2314ea.eot"); src: url("//db.onlinewebfonts.com/t/dc0b2bf2eb1538767df118d65a2314ea.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dc0b2bf2eb1538767df118d65a2314ea.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dc0b2bf2eb1538767df118d65a2314ea.woff") format("woff"), url("//db.onlinewebfonts.com/t/dc0b2bf2eb1538767df118d65a2314ea.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dc0b2bf2eb1538767df118d65a2314ea.svg#Trench") format("svg"); }
